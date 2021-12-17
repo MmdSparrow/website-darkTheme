@@ -1,0 +1,64 @@
+$green-color: rgb(54, 145, 97);
+
+
+.oneline-div{
+  background: rgb(80,80,80);
+  border-radius: 10px;
+  height: 0.4em;
+}
+
+.colorful-line-div{
+  border-radius: 10px;
+  height: 0.4em;
+  background: $green-color;
+}
+
+@keyframes c-frame {
+  0%  {width: 0}
+  100%  { width: 80%; }
+}
+.chart-c{
+  animation: c-frame 2s linear both;
+}
+
+
+@keyframes java-frame {
+  0%  {width: 0}
+  100%  { width: 95%; }
+}
+.chart-java{
+  animation: java-frame 2s linear both;
+}
+
+@keyframes python-frame {
+  0%  {width: 0}
+  100%  { width: 75%; }
+}
+.chart-python{
+  animation: python-frame 2s linear both;
+}
+
+@keyframes javascript-frame {
+  0%  {width: 0}
+  100%  { width: 70%; }
+}
+.chart-javascript{
+  animation: javascript-frame 2s linear both;
+}
+
+@keyframes html-frame {
+  0%  {width: 0}
+  100%  { width: 75%; }
+}
+.chart-html{
+  animation: html-frame 2s linear both;
+}
+
+@keyframes database-frame {
+  0%  {width: 0}
+  100%  { width: 85%; }
+}
+
+.chart-database{
+  animation: database-frame 2s linear both;
+}

@@ -1,0 +1,6 @@
+@media only screen and (max-width: 600px) {
+  .photo-article {
+    visibility: hidden;
+    min-width: 0; } }
+
+/*# sourceMappingURL=phone-style.css.map */

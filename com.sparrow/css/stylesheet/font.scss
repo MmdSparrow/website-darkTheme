@@ -1,0 +1,22 @@
+$green-color: rgb(54, 145, 97);
+
+.font-header{
+  color: rgb(255, 255, 255);
+  font-family: "Inter 700", sans-serif;
+  font-weight: bold;
+  font-size: 2.2em;
+}
+
+.font-sub-header{
+  color: $green-color;
+  font-family: "Libre Baskerville regular", sans-serif;
+  font-size: 1em;
+}
+
+.font-text{
+  color: rgb(80,80,80);
+  font-family: "Lato", sans-serif;
+  font-weight: unset;
+  font-size: 1em;
+  line-height: 1.35em;
+}

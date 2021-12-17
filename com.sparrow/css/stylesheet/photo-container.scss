@@ -1,0 +1,47 @@
+$green-color: rgb(54, 145, 97);
+
+.photo-article{
+  background-image: url("../../resource/image/profile.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  //background-attachment: fixed;
+  min-width: 13em;
+  width: 40vh;
+  height: 96vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0 0;
+  margin-right: 0.5rem;
+}
+
+.photo-article div:first-child{
+  margin: 0;
+}
+
+.photo-article div:first-child h1{
+  color: white;
+  font-family: "Inter 700", sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.photo-article div:nth-child(2){
+  margin-bottom: 1em;
+}
+
+.photo-article div:nth-child(2) h3{
+  color: $green-color;
+  font-family: "Vidaloka", sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+.photo-article ul{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2.5em;
+  gap: 0 0.8em;
+}

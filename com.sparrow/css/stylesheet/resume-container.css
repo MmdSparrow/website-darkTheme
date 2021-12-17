@@ -1,0 +1,118 @@
+/*
+scrollbar.................
+*/
+.resume-article::-webkit-scrollbar {
+  width: 0.25em; }
+
+.resume-article::-webkit-scrollbar-track {
+  /*background: #f1f1f1;*/
+  background: black; }
+
+.resume-article::-webkit-scrollbar-thumb {
+  background: rgba(120, 120, 120, 0.4); }
+
+.resume-article::-webkit-scrollbar-thumb:hover {
+  background: rgba(150, 150, 150, 0.4); }
+
+.resume-article {
+  width: 100vh;
+  height: 91.8vh;
+  overflow: auto;
+  min-width: 23em;
+  /*background-image: linear-gradient(to bottom, rgb(0, 0, 0) 80%, rgb(10, 10, 10));*/ }
+
+.resume-article > hr {
+  border: 0.5px solid rgba(170, 170, 170, 0.2);
+  margin: 1.2em 2em 1.5em 0; }
+
+.resume-section {
+  margin: 1em 2em 1em 0; }
+
+.resume-section > *:not(:first-child) {
+  margin-left: 1em; }
+
+.resume-section > h2 {
+  margin: 0.1rem 0 1.6rem 0; }
+
+.resume-section > div {
+  margin: 0.2em 0 0.5em 0; }
+
+.resume-section > div > span {
+  color: #369161;
+  font-family: "Libre Baskerville italic", sans-serif;
+  font-style: italic;
+  font-size: 1em; }
+
+.resume-section > div > span span {
+  color: #505050;
+  font-style: unset; }
+
+.flex-two-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  column-gap: 1.6em;
+  row-gap: 0.2em; }
+
+.flex-two-column > section {
+  flex: 48%; }
+
+.flex-two-column > section > img {
+  margin: 1em 0 0.7em 0; }
+
+.flex-two-column > section > h3 {
+  font-style: normal;
+  margin: 0 0 1em 0; }
+
+#service article {
+  justify-content: space-around; }
+
+#service article section h3 {
+  margin-bottom: 1em;
+  align-self: start; }
+
+.flex-one-column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em; }
+
+.bold-in-paragraph {
+  font-weight: bold;
+  color: #646464; }
+
+.container-header-percentage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 3em;
+  align-items: flex-end; }
+
+.flex-one-column > section {
+  margin-bottom: 0.3em; }
+
+.contact-aside {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em; }
+
+#contact > article {
+  column-gap: 1em; }
+
+.contact-aside > div {
+  column-gap: 1em; }
+
+.contact-aside > div > div > h5 {
+  margin-bottom: 0.5em;
+  font-size: 0.8em; }
+
+.contact-aside > div > div > span {
+  font-size: 0.8em; }
+
+.contact-aside > div > div:first-child {
+  margin-top: 1em; }
+
+.contact-aside > div:nth-child(2) {
+  margin-bottom: 3em; }
+
+/*# sourceMappingURL=resume-container.css.map */
