@@ -9,6 +9,146 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+
+$(function(){
+    $(".resume-article").scroll(function() {
+        // scroll to bot
+        if(document.getElementsByClassName("resume-article")[0].scrollWidth>300 && document.getElementsByClassName("resume-article")[0].scrollWidth<400){
+            if(document.getElementsByClassName("resume-article")[0].scrollTop>=2728){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#contact\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=2419){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#course\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=1797){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#education\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=1375){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#experience\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=839){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#skill\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=279){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#service\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=14){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#about\"]")[0].classList.add("active");
+            }
+        }
+        else if(document.getElementsByClassName("resume-article")[0].scrollWidth>400 && document.getElementsByClassName("resume-article")[0].scrollWidth<500){
+            if(document.getElementsByClassName("resume-article")[0].scrollTop>=2536){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#contact\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=2222){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#course\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=1721){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#education\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=1297){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#experience\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=761){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#skill\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=220){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#service\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=14){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#about\"]")[0].classList.add("active");
+            }
+        }
+        else if(document.getElementsByClassName("resume-article")[0].scrollWidth>600 && document.getElementsByClassName("resume-article")[0].scrollWidth<700){
+            console.log(document.getElementsByClassName("resume-article")[0].scrollTop)
+            if(document.getElementsByClassName("resume-article")[0].scrollTop>=1953){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#contact\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=1876){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#course\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=1414){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#education\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=1142){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#experience\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=550){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#skill\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=206){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#service\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=14){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#about\"]")[0].classList.add("active");
+            }
+        }
+        else if(document.getElementsByClassName("resume-article")[0].scrollWidth>700 && document.getElementsByClassName("resume-article")[0].scrollWidth<850){
+            console.log(document.getElementsByClassName("resume-article")[0].scrollTop)
+            if(document.getElementsByClassName("resume-article")[0].scrollTop>=1779){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#course\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=1397){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#education\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=1124){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#experience\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=588){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#skill\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=187){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#service\"]")[0].classList.add("active");
+            }
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=14){
+                document.getElementsByClassName("active")[0].classList.remove("active")
+                $("a[href=\"#about\"]")[0].classList.add("active");
+            }
+        }
+
+        //
+        // // scroll to top
+        // if(document.getElementsByClassName("resume-article")[0].scrollWidth>300 && document.getElementsByClassName("resume-article")[0].scrollWidth<400){
+        //
+        // }
+        // else if(document.getElementsByClassName("resume-article")[0].scrollWidth>400 && document.getElementsByClassName("resume-article")[0].scrollWidth<500){
+        //
+        // }
+        // else if(document.getElementsByClassName("resume-article")[0].scrollWidth>600 && document.getElementsByClassName("resume-article")[0].scrollWidth<700){
+        //
+        // }
+        // else {
+        //     console.log("...........................................................................")
+        // }
+    })
+})
+
 // $(".resume-article").scroll(function(){
 //     $('ul#menu li').each(function(){
 //         var stop = $(window).scrollTop() + $(window).height()/1.2;

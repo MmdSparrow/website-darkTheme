@@ -8,7 +8,6 @@ $('ul#time-line li').each(function(){
 $(".resume-article").scroll(function(){
     $('ul#time-line li').each(function(){
         var stop = $(window).scrollTop() + $(window).height()/1.2;
-        console.log(stop)
         // var stop2 =$(window).scrollTop() + $(window).height()*1.2;
         var litop = $(this).offset().top;
         if (stop > litop){
