@@ -14,27 +14,27 @@ $(function(){
     $(".resume-article").scroll(function() {
         // scroll to bot
         if(document.getElementsByClassName("resume-article")[0].scrollWidth>300 && document.getElementsByClassName("resume-article")[0].scrollWidth<400){
-            if(document.getElementsByClassName("resume-article")[0].scrollTop>=2728){
+            if(document.getElementsByClassName("resume-article")[0].scrollTop>=2690){
                 document.getElementsByClassName("active")[0].classList.remove("active")
                 $("a[href=\"#contact\"]")[0].classList.add("active");
             }
-            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=2419){
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=2390){
                 document.getElementsByClassName("active")[0].classList.remove("active")
                 $("a[href=\"#course\"]")[0].classList.add("active");
             }
-            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=1797){
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=1785){
                 document.getElementsByClassName("active")[0].classList.remove("active")
                 $("a[href=\"#education\"]")[0].classList.add("active");
             }
-            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=1375){
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=1360){
                 document.getElementsByClassName("active")[0].classList.remove("active")
                 $("a[href=\"#experience\"]")[0].classList.add("active");
             }
-            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=839){
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=820){
                 document.getElementsByClassName("active")[0].classList.remove("active")
                 $("a[href=\"#skill\"]")[0].classList.add("active");
             }
-            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=279){
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=260){
                 document.getElementsByClassName("active")[0].classList.remove("active")
                 $("a[href=\"#service\"]")[0].classList.add("active");
             }
@@ -106,23 +106,23 @@ $(function(){
         }
         else if(document.getElementsByClassName("resume-article")[0].scrollWidth>700 && document.getElementsByClassName("resume-article")[0].scrollWidth<850){
             console.log(document.getElementsByClassName("resume-article")[0].scrollTop)
-            if(document.getElementsByClassName("resume-article")[0].scrollTop>=1779){
+            if(document.getElementsByClassName("resume-article")[0].scrollTop>=1769){
                 document.getElementsByClassName("active")[0].classList.remove("active")
                 $("a[href=\"#course\"]")[0].classList.add("active");
             }
-            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=1397){
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=1387){
                 document.getElementsByClassName("active")[0].classList.remove("active")
                 $("a[href=\"#education\"]")[0].classList.add("active");
             }
-            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=1124){
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=1114){
                 document.getElementsByClassName("active")[0].classList.remove("active")
                 $("a[href=\"#experience\"]")[0].classList.add("active");
             }
-            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=588){
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=578){
                 document.getElementsByClassName("active")[0].classList.remove("active")
                 $("a[href=\"#skill\"]")[0].classList.add("active");
             }
-            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=187){
+            else if(document.getElementsByClassName("resume-article")[0].scrollTop>=177){
                 document.getElementsByClassName("active")[0].classList.remove("active")
                 $("a[href=\"#service\"]")[0].classList.add("active");
             }
